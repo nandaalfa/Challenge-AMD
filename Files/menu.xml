@@ -36,6 +36,29 @@
         />
 
     <TextView
+        android:layout_below="@id/maincourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nasi Goreng"
+        android:textColor="@color/Putih"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:id="@+id/nasigoreng"
+        />
+
+    <TextView
+        android:layout_below="@id/nasigoreng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mie Goreng"
+        android:textColor="@color/Putih"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"/>
+
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/maincourse"
@@ -44,5 +67,35 @@
         android:fontFamily="cursive"
         android:text="Desserts"
         android:textColor="@color/Putih"
-        android:textSize="30dp" />
+        android:textSize="30dp"
+        android:id="@+id/desserts"
+        />
+
+
+    <TextView
+        android:layout_below="@id/desserts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kue Cubit"
+        android:textColor="@color/Putih"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:id="@+id/kuecubit"
+        />
+
+    <TextView
+        android:layout_below="@id/kuecubit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Martabak"
+        android:textColor="@color/Putih"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:id="@+id/martabak"
+        />
+
+
+
 </RelativeLayout>
