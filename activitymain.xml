@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/projek"
+        android:scaleType="fitXY"/>
+
+    <TextView
+            android:id="@+id/restaurant_hayu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:fontFamily="cursive"
+            android:text="LaHayuuu~"
+            android:textAlignment="center"
+            android:textSize="60sp"
+            android:textColor="@color/Putih"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hayuuuu_makan"
+            android:layout_below="@id/restaurant_hayu"
+            android:textAlignment="center"
+            android:id="@+id/hayu_makan"
+            android:layout_marginTop="30dp"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:textColor="@color/Putih"/>
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="190dp"
+        android:layout_height="87dp"
+        android:layout_below="@id/hayu_makan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:text="@string/menu" />
+
+</RelativeLayout>
