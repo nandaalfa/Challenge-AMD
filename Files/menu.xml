@@ -46,31 +46,46 @@
         android:textSize="20dp"
         android:id="@+id/nasigoreng"
         />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/nasigoreng"
+        android:src="@drawable/projeknasgor"
+        android:id="@+id/gambarnasgor"
+        android:layout_marginLeft="20dp"
+        />
 
     <TextView
-        android:layout_below="@id/nasigoreng"
+        android:layout_below="@id/gambarnasgor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Mie Goreng"
         android:textColor="@color/Putih"
         android:fontFamily="cursive"
         android:layout_marginLeft="20dp"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:id="@+id/miegoreng"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/miegoreng"
+        android:id="@+id/gambarmiegoreng"
+        android:src="@drawable/projekmiegoreng"
+        android:layout_marginLeft="20dp"
+        />
 
 
     <TextView
+        android:id="@+id/desserts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/maincourse"
+        android:layout_below="@id/gambarmiegoreng"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="-1dp"
         android:fontFamily="cursive"
         android:text="Desserts"
         android:textColor="@color/Putih"
-        android:textSize="30dp"
-        android:id="@+id/desserts"
-        />
-
+        android:textSize="30dp" />
 
     <TextView
         android:layout_below="@id/desserts"
