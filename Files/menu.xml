@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".menu">
+    android:layout_height="match_parent">
 
     <ImageView
         android:layout_width="match_parent"
@@ -26,7 +25,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Main Course"
+        android:text="@string/main_course"
         android:layout_below="@id/foods"
         android:textSize="30dp"
         android:fontFamily="cursive"
@@ -39,7 +38,7 @@
         android:layout_below="@id/maincourse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nasi Goreng"
+        android:text="@string/nasi_goreng"
         android:textColor="@color/Putih"
         android:fontFamily="cursive"
         android:layout_marginLeft="20dp"
@@ -59,7 +58,7 @@
         android:layout_below="@id/gambarnasgor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mie Goreng"
+        android:text="@string/mie_goreng"
         android:textColor="@color/Putih"
         android:fontFamily="cursive"
         android:layout_marginLeft="20dp"
@@ -91,19 +90,24 @@
         android:layout_below="@id/desserts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kue Cubit"
+        android:text="@string/kue_cubit"
         android:textColor="@color/Putih"
         android:fontFamily="cursive"
         android:layout_marginLeft="20dp"
         android:textSize="20dp"
         android:id="@+id/kuecubit"
         />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/projekcubit"
+        android:layout_below="@id/kuecubit"
 
     <TextView
         android:layout_below="@id/kuecubit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Martabak"
+        android:text="@string/martabak"
         android:textColor="@color/Putih"
         android:fontFamily="cursive"
         android:layout_marginLeft="20dp"
