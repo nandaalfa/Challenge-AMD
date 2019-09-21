@@ -13,17 +13,18 @@
 
     <TextView
         android:text="Foods"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="60dp"
         android:layout_marginTop="50dp"
         android:fontFamily="cursive"
         android:textColor="@color/Putih"
         android:layout_marginLeft="30dp"
-        android:id="@+id/foods"/>
+        android:id="@+id/foods"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/main_course"
         android:layout_below="@id/foods"
@@ -32,32 +33,37 @@
         android:textColor="@color/Putih"
         android:layout_marginLeft="20dp"
         android:id="@+id/maincourse"
+        android:layout_centerHorizontal="true"
         />
 
     <TextView
         android:layout_below="@id/maincourse"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:text="@string/nasi_goreng"
         android:textColor="@color/Putih"
         android:fontFamily="cursive"
         android:layout_marginLeft="20dp"
         android:textSize="20dp"
         android:id="@+id/nasigoreng"
-        />
+        android:layout_marginTop="5dp" />
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="130dp"
+        android:layout_height="110dp"
         android:layout_below="@id/nasigoreng"
         android:src="@drawable/projeknasgor"
         android:id="@+id/gambarnasgor"
         android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
         />
 
     <TextView
         android:layout_below="@id/gambarnasgor"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:text="@string/mie_goreng"
         android:textColor="@color/Putih"
         android:fontFamily="cursive"
@@ -65,19 +71,22 @@
         android:textSize="20dp"
         android:id="@+id/miegoreng"/>
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="130dp"
+        android:layout_height="110dp"
         android:layout_below="@id/miegoreng"
         android:id="@+id/gambarmiegoreng"
         android:src="@drawable/projekmiegoreng"
         android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
         />
 
 
     <TextView
         android:id="@+id/desserts"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_below="@id/gambarmiegoreng"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="-1dp"
@@ -88,32 +97,27 @@
 
     <TextView
         android:layout_below="@id/desserts"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:text="@string/kue_cubit"
         android:textColor="@color/Putih"
         android:fontFamily="cursive"
         android:layout_marginLeft="20dp"
         android:textSize="20dp"
         android:id="@+id/kuecubit"
-        />
+        android:layout_marginTop="5dp"/>
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
         android:src="@drawable/projekcubit"
         android:layout_below="@id/kuecubit"
-
-    <TextView
-        android:layout_below="@id/kuecubit"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/martabak"
-        android:textColor="@color/Putih"
-        android:fontFamily="cursive"
         android:layout_marginLeft="20dp"
-        android:textSize="20dp"
-        android:id="@+id/martabak"
-        />
+        android:layout_marginTop="10dp"
+        android:id="@+id/kuecubitjpg" />
+
+
 
 
 
