@@ -13,11 +13,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+//mengenalkan button nya
         Button menu = findViewById(R.id.menu);
         menu.setOnClickListener(this);
     }
-
+// ketika d klik akan pindah ke menu
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
