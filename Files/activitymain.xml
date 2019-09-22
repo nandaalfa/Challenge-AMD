@@ -7,11 +7,11 @@
     tools:context=".MainActivity">
 
 
-    <ImageView
+    <ImageView //background
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/projek"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"/> //menyesuaikan dengan layar
 
     <TextView
             android:id="@+id/restaurant_hayu"
@@ -46,7 +46,7 @@
         android:textStyle="bold"
         android:textSize="30dp"
         android:text="@string/menu"
-        android:background="@drawable/button_rounded"
+        android:background="@drawable/button_rounded"  //biar button nya gak kotak bgt
         android:fontFamily="cursive"/>
 
 </RelativeLayout>
