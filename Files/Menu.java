@@ -12,7 +12,7 @@ import android.widget.ImageButton;
 import static com.example.projek1mad.R.id.gambarnasgor;
 
 public class Menu extends AppCompatActivity implements View.OnClickListener {
-
+// mengenalkan 3 tombol pd menu
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +28,7 @@ public class Menu extends AppCompatActivity implements View.OnClickListener {
         kuecubitjpg.setOnClickListener(this);
 
     }
-
+// masing2 tombol ketika d klik akan pindah ke activity yang d tuju
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
