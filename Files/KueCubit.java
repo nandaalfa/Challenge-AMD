@@ -17,7 +17,7 @@ public class KueCubit extends AppCompatActivity implements View.OnClickListener 
         Button button = findViewById(R.id.butonbeli);
         button.setOnClickListener(this);
     }
-
+// menggunakan toast untuk memunculkan tulisan ketika tombol d tekan
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
